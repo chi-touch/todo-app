@@ -3,10 +3,11 @@ kind: Service
 metadata:
   name: todo-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: todo
   ports:
     - protocol: TCP
       port: 8291
       targetPort: 8291
+      nodePort: 30091

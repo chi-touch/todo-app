@@ -1,13 +1,14 @@
 #v1apiVersion: v1
 #kind: ConfigMap
 #metadata:
-#  name: todo-config
+#  name:
 #data:
 #  SPRING_PROFILES_ACTIVE: "default"
-#  DB_HOST: "todo-db"
+#  DB_HOST: ""
 #  DB_USER: "admin"
 
 
+#configmap.yaml
 apiVersion: v1
 kind: ConfigMap
 metadata:
