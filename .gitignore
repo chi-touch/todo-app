@@ -48,7 +48,7 @@ override.tf
 override.tf.json
 *.auto.tfvars
 *.backup
-target/
-.terraform/
+*.target/
+*.terraform/
 *.jar
 *.tfstate
