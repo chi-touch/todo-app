@@ -1,22 +1,26 @@
 package africa.semicolon.todo.data.model;
 
+import jakarta.persistence.*;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.DBRef;
-import org.springframework.data.mongodb.core.mapping.Document;
+
+
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 @Data
-@Document("Todos")
+
+@Entity
+@Table(name = "Todos") // Optional, but useful to explicitly name your table
+
 public class Todo {
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private String title;
     private LocalDateTime timeCreated = LocalDateTime.now();
 
 
-    @DBRef
+    @OneToMany(cascade = CascadeType.ALL)
     private List<Task> tasks = new ArrayList<>();
 }

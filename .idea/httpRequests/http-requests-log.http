@@ -1,0 +1,45 @@
+POST http://localhost:8080/api/Todo/delete
+Content-Type: application/json
+Content-Length: 28
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "hello world"
+}
+
+<> 2025-05-13T161909.400.json
+
+###
+
+POST http://localhost:8080/api/Todo/delete
+Content-Type: application/json
+Content-Length: 28
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "hello world"
+}
+
+<> 2025-05-13T131447.201.json
+
+###
+
+POST http://localhost:8080/api/Todo/create
+Content-Type: application/json
+Content-Length: 28
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "hello world"
+}
+
+<> 2025-05-13T131313.201.json
+
+###
+

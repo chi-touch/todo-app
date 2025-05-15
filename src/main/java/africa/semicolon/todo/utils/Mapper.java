@@ -24,7 +24,7 @@ public class Mapper {
         response.setTitle(task.getTitle());
         response.setDescription(task.getDescription());
         response.setTimeCreated(task.getTimeCreated());
-        response.setId(task.getId());
+        response.setId(String.valueOf(task.getId()));
         response.setTodoId(task.getTodoId());
         response.setTimeDone(task.getTimeDone());
         return response;

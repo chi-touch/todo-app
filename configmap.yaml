@@ -1,0 +1,18 @@
+#v1apiVersion: v1
+#kind: ConfigMap
+#metadata:
+#  name: todo-config
+#data:
+#  SPRING_PROFILES_ACTIVE: "default"
+#  DB_HOST: "todo-db"
+#  DB_USER: "admin"
+
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: todo-config
+data:
+  DB_HOST: "mytodo" # This must match your PostgreSQL Service name
+  DB_USER: "admin"
+  DB_NAME: "mytodo"
