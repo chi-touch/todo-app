@@ -5,41 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="367400c1-b6b0-41bb-aa04-f446396c28ed" name="Changes" comment="todo">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/buildAndDeploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hpa.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localstack-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localstack-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postgres-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postgres-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/secret.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/secret.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/eks.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/iam.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/outputs.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/s3.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/vpc.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/hpa.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/postgres-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/postgres-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/secret.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/output.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/buildAndDeploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/buildAndDeploy.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/data/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/data/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/data/model/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/data/model/Todo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/data/repositories/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/data/repositories/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/data/repositories/TodoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/data/repositories/TodoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/dtos/request/CreateTaskRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/dtos/request/CreateTaskRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/dtos/request/CreateTodoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/dtos/request/CreateTodoRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/dtos/request/UpdateTaskRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/dtos/request/UpdateTaskRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/dtos/request/UpdateTodoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/dtos/request/UpdateTodoRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/dtos/response/TaskResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/dtos/response/TaskResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/todo/utils/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configmap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hpa.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localstack-deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localstack-service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgres-deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgres-pvc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgres-service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secret.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/.terraform.lock.hcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/eks.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/iam.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/iam.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/s3.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/s3.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/vpc.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/vpc.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +58,13 @@
 }</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -98,7 +101,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Todo-App&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Todo-Appim&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -212,6 +215,13 @@
       <workItem from="1747152795809" duration="2889000" />
       <workItem from="1747233866401" duration="24806000" />
       <workItem from="1747293286063" duration="5675000" />
+      <workItem from="1747301820953" duration="21734000" />
+      <workItem from="1747424591072" duration="1721000" />
+      <workItem from="1747559206687" duration="17074000" />
+      <workItem from="1747584645997" duration="4633000" />
+      <workItem from="1747590828349" duration="4559000" />
+      <workItem from="1747603524220" duration="7583000" />
+      <workItem from="1747614402866" duration="6593000" />
     </task>
     <task id="LOCAL-00001" summary="todo">
       <option name="closed" value="true" />

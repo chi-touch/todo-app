@@ -1,7 +1,4 @@
-resource "aws_s3_bucket" "bucket" {
-  bucket = var.bucket_name
-
-  tags = {
-    Name = "todo-app-bucket"
-  }
+resource "aws_s3_bucket" "tf_state" {
+  bucket = "terraform-state-bucket"
+  force_destroy = true
 }
