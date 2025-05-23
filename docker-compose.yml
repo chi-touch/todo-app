@@ -1,55 +1,4 @@
-#services:
-#  localstack:
-#    image: localstack/localstack
-#    container_name: localstack
-#    ports:
-#      - "4566:4566"  # LocalStack services
-#      - "4571:4571"
-#    environment:
-#      - SERVICES=s3,iam,ec2
-#      - DEBUG=1
-#      - DOCKER_HOST=unix:///var/run/docker.sock
-#    volumes:
-#      - "./.localstack:/tmp/localstack"
-#      - "/var/run/docker.sock:/var/run/docker.sock"
-#
-#  springboot-app:
-#    build:
-#      context: ./app/
-#      dockerfile: Dockerfile
-#    container_name:
-#    ports:
-#      - "8080:8080"
-#    depends_on:
-#      - localstack
-
-
-#services:
-#  localstack:
-#    image: localstack/localstack
-#    container_name: localstack
-#    ports:
-#      - "4566:4566"
-#      - "4571:4571"
-#    environment:
-#      - SERVICES=s3,iam,ec2
-#      - DEBUG=1
-#      - DOCKER_HOST=unix:///var/run/docker.sock
-#    volumes:
-#      - "./.localstack:/tmp/localstack"
-#      - "/var/run/docker.sock:/var/run/docker.sock"
-#
-#  springboot-app:
-#    build:
-#      context: .
-#      dockerfile: Dockerfile
-#    container_name:
-#    ports:
-#      - "8291:8291"
-#    depends_on:
-#      - localstack
-
-
+version: "3.8"
 services:
   localstack:
     image: localstack/localstack
@@ -66,7 +15,7 @@ services:
       - "/var/run/docker.sock:/var/run/docker.sock"
 
   postgres:
-    image: postgres:15
+    image: postgres:16
     container_name: postgres-db
     environment:
       POSTGRES_DB: mytodo

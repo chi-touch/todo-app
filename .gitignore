@@ -42,6 +42,10 @@ build/
 *.tfstate
 *.tfstate.*
 crash.log
+terraform.tfstate
+terraform.tfstate.backup
+terraform.lock.hcl
+tfplan.binary
 terraform.tfvars
 terraform.tfvars.json
 override.tf

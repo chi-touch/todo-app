@@ -1,3 +1,61 @@
+GET http://localhost:8291/api/Task/getTitle
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-05-19T144701.400.json
+
+###
+
+GET http://localhost:8291/api/Task/get
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-05-19T144627.201.json
+
+###
+
+POST http://localhost:8291/api/Todo/create
+Content-Type: application/json
+Content-Length: 30
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "hi mr ibrahim"
+}
+
+<> 2025-05-19T144538.201.json
+
+###
+
+POST http://localhost:8291/api/Todo/create
+Content-Type: application/json
+Content-Length: 30
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "josh big head"
+}
+
+<> 2025-05-19T142948.201.json
+
+###
+
+POST http://localhost:8291/api/Todo/create
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-05-19T142910.400.json
+
+###
+
 POST http://localhost:8080/api/Todo/delete
 Content-Type: application/json
 Content-Length: 28

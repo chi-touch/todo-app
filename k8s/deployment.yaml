@@ -17,14 +17,14 @@ spec:
       containers:
         - name: todoapp
           image: chichia/mytodoapp:latest
-          imagePullPolicy: Always
+#          imagePullPolicy: Always
           ports:
             - containerPort: 8292
           envFrom:
             - configMapRef:
-                name: todo-config
+                name: todoapp-config
             - secretRef:
-                name: todo-secret
+                name: todoapp-secret
           resources:
             requests:
               cpu: "100m"

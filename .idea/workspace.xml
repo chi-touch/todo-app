@@ -5,37 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="367400c1-b6b0-41bb-aa04-f446396c28ed" name="Changes" comment="todo">
-      <change afterPath="$PROJECT_DIR$/k8s/configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/hpa.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/postgres-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/postgres-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/secret.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/output.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/buildAndDeploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/buildAndDeploy.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-05-19T142910.400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-05-19T142948.201.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-05-19T144538.201.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-05-19T144627.201.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2025-05-19T144701.400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/k8s_config.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/provider.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/providers/registry.terraform.io/hashicorp/aws/4.67.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/providers/registry.terraform.io/hashicorp/aws/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/providers/registry.terraform.io/hashicorp/kubernetes/2.37.1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/providers/registry.terraform.io/hashicorp/kubernetes/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configmap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hpa.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localstack-deployment.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localstack-service.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgres-deployment.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgres-pvc.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgres-service.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/secret.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/configmap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/ingress.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/.terraform.lock.hcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/eks.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/iam.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/iam.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/iam.tf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/output.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform/s3.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/s3.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/variables.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/vpc.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/vpc.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/vpc.tf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,42 +73,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.generated-requests | #260.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #261.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #262.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TaskServicesImplTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TaskServicesImplTest.updateTaskTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TodoServicesImplTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TodoServicesImplTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.todoApp [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.todoApp [package].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Main.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Todo-Appim&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenRunHelper&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.generated-requests | #260.executor": "Run",
+    "HTTP Request.generated-requests | #261.executor": "Run",
+    "HTTP Request.generated-requests | #262.executor": "Run",
+    "JUnit.TaskServicesImplTest.executor": "Run",
+    "JUnit.TaskServicesImplTest.updateTaskTest.executor": "Run",
+    "JUnit.TodoServicesImplTest (1).executor": "Run",
+    "JUnit.TodoServicesImplTest.executor": "Run",
+    "Maven.todoApp [clean].executor": "Run",
+    "Maven.todoApp [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Main.executor": "Debug",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/Todo-App",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenRunHelper",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\IdeaProjects\note\todoApp\src\test\java\africa\semicolon\blog" />
@@ -221,7 +216,16 @@
       <workItem from="1747584645997" duration="4633000" />
       <workItem from="1747590828349" duration="4559000" />
       <workItem from="1747603524220" duration="7583000" />
-      <workItem from="1747614402866" duration="6593000" />
+      <workItem from="1747614402866" duration="18479000" />
+      <workItem from="1747681288943" duration="13545000" />
+      <workItem from="1747743684800" duration="3971000" />
+      <workItem from="1747770607890" duration="9565000" />
+      <workItem from="1747819973775" duration="12028000" />
+      <workItem from="1747838869057" duration="27000" />
+      <workItem from="1747847198154" duration="348000" />
+      <workItem from="1747901111657" duration="10102000" />
+      <workItem from="1747997717385" duration="14088000" />
+      <workItem from="1748015034784" duration="1212000" />
     </task>
     <task id="LOCAL-00001" summary="todo">
       <option name="closed" value="true" />
